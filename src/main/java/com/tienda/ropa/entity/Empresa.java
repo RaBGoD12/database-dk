@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class RUC extends Comprador {
+public class Empresa extends Comprador {
     @Column(unique = true)
     private String numeroRuc;
 
